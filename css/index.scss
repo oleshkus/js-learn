@@ -104,11 +104,11 @@ main {
 
     .info {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         flex-direction: row;
-
         margin-top: 70px;
+        gap: 60px;
         .info-el {
             .circle {
                 width: 100px;
@@ -133,7 +133,7 @@ main {
             flex-direction: column;
 
             p {
-                margin-top: 20px;
+                font-size: 20px;
             }
         }
     }

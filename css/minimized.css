@@ -88,10 +88,11 @@ main p {
 }
 main .info {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
   margin-top: 70px;
+  gap: 60px;
 }
 main .info .info-el {
   display: flex;
@@ -116,7 +117,7 @@ main .info .info-el .circle .second-circle {
   border-radius: 100%;
 }
 main .info .info-el p {
-  margin-top: 20px;
+  font-size: 20px;
 }
 main .price-form {
   height: 700px;
