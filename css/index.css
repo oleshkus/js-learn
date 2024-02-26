@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Ubuntu", monospace;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  border-bottom: solid rgba(0, 0, 0, 0.3) 1px;
+}
+header nav {
+  width: 100%;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+header nav ul .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav ul .left span {
+  font-size: 36px;
+  margin-left: 10px;
+  font-weight: bolder;
+  color: #f19700;
+}
+header nav ul .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav ul .right .number {
+  display: flex;
+  justify-content: center;
+}
+header nav ul .right .number address {
+  font-size: 20px;
+  align-self: center;
+  margin-left: 5px;
+}
+header nav ul .right button {
+  height: 45px;
+  width: auto;
+  padding: 0 30px 0 30px;
+  font-size: 16px;
+  color: white;
+  background-color: #f19700;
+  font-weight: bolder;
+  border: none;
+  border-radius: 6px;
+  margin-left: 20px;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+main h1 {
+  font-size: 36px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 50px;
+}
+main p {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 50px;
+}
+main .info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 70px;
+}
+main .info .info-el {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .info .info-el .circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .info .info-el .circle .second-circle {
+  width: 80px;
+  height: 80px;
+  background-color: #64892e;
+  border-radius: 100%;
+}
+main .info .info-el p {
+  margin-top: 20px;
+}
+main .price-form {
+  height: 700px;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+main .price-form .part form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-top: 100px;
+}
+main .price-form .part form select {
+  width: 200px;
+  height: 40px;
+  border: none;
+}
+main .our-projects {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+main .our-projects .big-img {
+  width: 950px;
+  height: 550px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  font-size: 24px;
+}
+main .our-projects .small-imgs .img1 {
+  flex: 2 1 100%; /* This will make the first item take up 2 out of 3 parts of the available space on small screens */
+  background-color: lightblue;
+}
+main .our-projects .small-imgs .img2, main .our-projects .small-imgs .img3 {
+  flex: 1 1 50%; /* This will make the second and third items take up 1 out of 3 parts of the available space on small screens */
+}
+main .our-projects .small-imgs .img4 {
+  flex: 2 1 100%; /* This will make the fourth item take up 2 out of 3 parts of the available space on small screens */
+  background-color: lightsalmon;
+}
+
+/*# sourceMappingURL=index.css.map */

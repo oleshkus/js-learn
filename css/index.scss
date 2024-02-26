@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+    font-family: "Ubuntu", monospace;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    height: 100px;
+
+    border-bottom: solid rgba(0,0,0,0.3) 1px;
+
+    nav {
+
+        ul{ //LEFT + RIGHT PART
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            width: 100%;
+            height: 100%;
+            padding-left: 200px;
+            padding-right: 200px;
+
+            .left {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                span { // WINFIN
+                    font-size: 36px;
+                    margin-left: 10px;
+                    font-weight: bolder;
+                    color: #f19700;
+                }
+
+            }
+            .right {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .number {
+                    display: flex;
+                    justify-content: center;
+
+                    address {
+                        font-size: 20px;
+                        align-self: center;
+                        margin-left: 5px;
+                    }
+                }
+
+                button {
+                    height: 45px;
+                    width: auto;
+                    padding: 0 30px 0 30px;
+                    font-size: 16px;
+                    color: white;
+                    background-color: #f19700;
+                    font-weight: bolder;
+                    border: none;
+                    border-radius: 6px;
+                    margin-left: 20px;
+                }
+            }
+
+        }
+
+        width: 100%;
+    }
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        font-size: 36px;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    p {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .info {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+
+        margin-top: 70px;
+        .info-el {
+            .circle {
+                width: 100px;
+                height: 100px;
+                border-radius: 100%;
+                text-align: center;
+                border: 1px solid rgba(0, 0, 0, 0.4);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .second-circle {
+                    width: 80px;
+                    height: 80px;
+                    background-color: #64892e;
+                    border-radius: 100%;
+                }
+            }
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            p {
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .price-form {
+        height: 700px;
+        background-color: rgba(0,0,0,0.04);
+        .part {
+            form {
+                select {
+                    width: 200px;
+                    height: 40px;
+                    border: none;
+                }
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                margin-left: 40px;
+                margin-top: 100px;
+            }
+        }
+    }
+
+    .our-projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+
+        .big-img {
+            width: 950px;
+            height: 550px;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .small-imgs {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            max-width: 950px;
+
+            img {
+                width: 24%;
+            }
+            .img1 {
+                flex: 2 1 100%;
+                background-color: lightblue;
+            }
+
+            .img2, .img3 {
+                flex: 2 1 100%;
+            }
+
+            .img4 {
+                flex: 2 1 100%;
+                background-color: lightsalmon;
+            }
+        }
+    }
+    .all-projects {
+
+    }
+
+}
